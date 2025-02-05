@@ -64,7 +64,7 @@
       "cmd-t": "workspace::ToggleBottomDock",
       "cmd-j": "project_symbols::Toggle",
       "cmd-g": ["task::Spawn", { "task_name": "gitui" }],
-      "space r r": ["task::Spawn", { "task_name": "Frontnow: Run" }],
+      "cmd-r cmd-r": ["task::Spawn", { "task_name": "Frontnow: Run" }],
       "shift shift": "file_finder::Toggle",
       "cmd-shift-a": "command_palette::Toggle",
       "cmd-shift-f": "project_symbols::Toggle",
